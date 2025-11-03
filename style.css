@@ -28,6 +28,24 @@ body {
   margin: 50px auto;
 }
 
+.btn_show {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.btn_show:hover {
+  background-color: rgba(100, 100, 100, 0.2);
+  color: rgb(50,50,50);
+}
+
 @media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
